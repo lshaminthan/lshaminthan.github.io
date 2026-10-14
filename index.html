@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lakshman Shaminthan — Full-Stack Developer</title>
+  <meta name="description" content="Lakshman Shaminthan, a full-stack developer and Computer Science graduate building web apps, APIs and serverless AWS backends." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <meta name="theme-color" content="#9929fb" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-mark">S</span>
+        <span class="brand-name">Shaminthan</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li class="only-mobile"><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="#contact" class="btn btn-primary">Contact</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO + ABOUT ================= -->
+    <div class="glow-bg">
+      <section class="container hero" id="home">
+        <div class="hero-text">
+          <h1 class="reveal">
+            Hello, I'm
+            <span class="hero-name">Lakshman Shaminthan</span>
+          </h1>
+          <p class="hero-sub reveal">
+            I'm a <span class="highlight">Full-Stack Developer</span> from Jaffna, Sri Lanka.
+            I build web apps, APIs and serverless backends with Python, Node.js, React and AWS.
+          </p>
+          <a href="mailto:lakshmanshaminthan@gmail.com" class="btn btn-primary btn-lg reveal">Say Hello!</a>
+
+        </div>
+
+        <div class="hero-visual reveal">
+          <img src="images/me.jpg" alt="Lakshman Shaminthan" class="hero-img" />
+          <ul class="hero-socials">
+            <li><a href="https://www.linkedin.com/in/shaminthan-lakshman-6aa642229/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6c.6-1 1.9-1.9 3.8-1.9 4 0 4.9 2.5 4.9 5.9V21h-4v-5.2c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1V21h-4z"/></svg></a></li>
+            <li><a href="https://github.com/lshaminthan" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg></a></li>
+            <li><a href="mailto:lakshmanshaminthan@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Floating profile card -->
+      <div class="container">
+        <section class="profile-card reveal" id="about">
+          <div class="profile-img-wrap">
+            <img src="images/me-2.jpg" alt="Lakshman Shaminthan in a suit on the NIT Rourkela campus" />
+            <div class="profile-badge"><strong>Lakshman Shaminthan</strong><span>Full-Stack Developer</span></div>
+          </div>
+          <div class="profile-text">
+            <h2>I am a Full-Stack Software Engineer</h2>
+            <p class="award-badge scholar-badge">🎓 ICCR Scholar, Government of India</p>
+            <p>I studied Computer Science and Engineering at <a href="https://www.nitrkl.ac.in/" target="_blank" rel="noopener" class="text-link">NIT Rourkela</a> as an <strong>ICCR scholar</strong>, on a full scholarship from the Government of India, and graduated with a B.Tech (First Class).</p>
+            <p>At Cogntix I built features across React/Next.js frontends, Node.js and Python backends and MongoDB, including an AI-powered interview scheduling system.</p>
+            <p>Right now I'm the lead full-stack developer on LankaRoute, an AI trip-planning platform. I'm a quick learner who loves turning ideas into working products.</p>
+            <div class="btn-row">
+              <a href="#portfolio" class="btn btn-primary btn-lg">My Projects</a>
+              <a href="Lakshman_Shaminthan_CV.pdf" class="btn btn-outline btn-lg" download>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>
+                Download CV
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- ================= PORTFOLIO ================= -->
+    <div class="soft-bg after-profile">
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="container section experience" id="experience">
+      <div class="section-head reveal">
+        <h2 class="section-title">Experience</h2>
+        <p>Where I've worked and what I built there.</p>
+      </div>
+
+      <article class="exp-card reveal">
+        <header class="exp-company">
+          <span class="exp-logo">C</span>
+          <div>
+            <h3>Cogntix</h3>
+            <p>Jaffna, Sri Lanka · 2 roles</p>
+          </div>
+        </header>
+
+        <ol class="exp-timeline">
+          <li>
+            <div class="exp-role-head">
+              <h4>Software Engineer Intern</h4>
+              <span class="exp-date">Jan 2026 – Jul 2026</span>
+            </div>
+            <ul class="exp-points">
+              <li>Worked as a full-stack developer on <strong>PACC</strong>, an eBook-selling platform with separate <strong>Publisher, Admin and Reader portals</strong>, contributing across frontend, backend and database layers.</li>
+              <li><strong>Frontend:</strong> developed responsive user interfaces using React and Next.js.</li>
+              <li><strong>Backend:</strong> built and maintained Node.js services, including REST API integration for internal and third-party services, and <strong>payment gateway integration</strong> for transaction processing.</li>
+              <li><strong>Database:</strong> designed and managed application data using MongoDB.</li>
+            </ul>
+            <ul class="work-tags"><li>React</li><li>Next.js</li><li>Node.js</li><li>REST APIs</li><li>Payment Gateway</li><li>MongoDB</li></ul>
+          </li>
+          <li>
+            <div class="exp-role-head">
+              <h4>Research and Development Intern</h4>
+              <span class="exp-date">May 2025 – Jul 2025</span>
+            </div>
+            <ul class="exp-points">
+              <li>Developed an <strong>Automated Interview Scheduling System</strong> to streamline candidate outreach and recruiter scheduling.</li>
+              <li>Built backend services using Python, FastAPI and MongoDB for email automation and scheduling workflows.</li>
+              <li>Integrated <strong>AWS SES, SNS and S3</strong> for sending emails, real-time notifications and email storage.</li>
+              <li>Connected the <strong>Google Calendar API</strong> to fetch recruiter availability and manage scheduling conflicts.</li>
+              <li>Used <strong>AI APIs (NLP models)</strong> to analyse candidate emails for sentiment, date and time availability.</li>
+            </ul>
+            <ul class="work-tags"><li>Python</li><li>FastAPI</li><li>MongoDB</li><li>AWS SES</li><li>AWS SNS</li><li>AWS S3</li><li>Google Calendar API</li><li>NLP</li></ul>
+          </li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="container section" id="portfolio">
+      <div class="section-head reveal">
+        <h2 class="section-title">Projects</h2>
+        <p>A few things I've built recently, from AI-powered platforms and a restaurant SaaS to IoT and NLP research.</p>
+      </div>
+      <div class="portfolio-grid">
+        <!-- Copy one <article> per project. Replace the placeholder div with <img class="work-img" src="images/project-1.png" alt="" /> -->
+        <article class="work-card reveal">
+          <img class="work-img fit-contain" src="images/lankaroute.png" alt="LankaRoute home page with route search: choose a starting location, destination, travel date and mode of transport (fastest, bus or train)." />
+          <div class="work-body">
+            <p class="work-cat">Freelance · AI Platform</p>
+            <h3>LankaRoute — AI Trip Planner</h3>
+            <p>Lead developer on a 3-person team building an AI-powered trip planner for Sri Lanka, with a card-based wizard that turns your interests into a personalised itinerary.</p>
+            <ul class="work-tags"><li>Next.js</li><li>Node.js</li><li>AWS Lambda</li><li>DynamoDB</li><li>SST</li></ul>
+          </div>
+        </article>
+        <article class="work-card reveal">
+          <img class="work-img fit-contain menuaura-img" src="images/menuaura.png" alt="Menuaura landing page: 'One scan, your whole menu', with a phone showing a restaurant's digital QR menu, promotions and offers." />
+          <div class="work-body">
+            <p class="work-cat">Freelance · SaaS · Team of 4</p>
+            <h3>Menuaura — Restaurant SaaS Platform</h3>
+            <p>A subscription platform for restaurants with QR menus, reviews and promotions, built with a team of four friends. I own the <strong>PayHere payment integration</strong>: a secure, duplicate-safe webhook that activates, renews and cancels subscriptions.</p>
+            <ul class="work-tags"><li>TypeScript</li><li>AWS Lambda</li><li>DynamoDB</li><li>PayHere</li><li>SST</li></ul>
+          </div>
+        </article>
+        <article class="work-card reveal">
+          <img class="work-img" src="images/legal-analyzer.svg" alt="A contract with highlighted key clauses and a flagged risk, next to an AI chatbot answering a question about the contract." />
+          <div class="work-body">
+            <h3>AI Legal Document Analyzer</h3>
+            <p>An AI platform that summarises legal documents, highlights key clauses, flags potential risks and answers questions through a chatbot built on a RAG architecture. Uses Legal-BERT embeddings with ChromaDB and FAISS for semantic search, and Gemini to give clear, context-aware answers.</p>
+            <ul class="work-tags"><li>FastAPI</li><li>Legal-BERT</li><li>Gemini LLM</li><li>ChromaDB</li><li>FAISS</li><li>RAG</li></ul>
+          </div>
+        </article>
+        <article class="work-card reveal">
+          <img class="work-img fit-contain" src="images/factory.png" alt="Factory simulation dashboard showing machine and adjuster utilisation, the machine repair queue, and available adjusters with their expertise." />
+          <div class="work-body">
+            <p class="work-cat">College Project · Simulation</p>
+            <h3>Factory Machine Maintenance Simulation</h3>
+            <p>Simulates machine failures using Mean Time to Failure and assigns adjusters through a queue to cut downtime. Includes a Flutter mobile app and a React web app.</p>
+            <ul class="work-tags"><li>Flutter</li><li>React</li><li>Node.js</li><li>MongoDB</li><li>Firebase</li></ul>
+          </div>
+        </article>
+        <article class="work-card reveal">
+          <img class="work-img" src="images/esp32-guide.jpg" alt="ESP32 development board on a breadboard, wired to a MicroSD card module." />
+          <div class="work-body">
+            <p class="work-cat">Personal Project · IoT</p>
+            <h3>Offline Tourist Guide System (ESP32)</h3>
+            <p>A tourist guide that works with no internet. An ESP32 runs its own Wi-Fi hotspot and serves guide pages, local images and multilingual audio from a MicroSD card, so visitors just connect with their phone. I built the website and set up the ESP32, MicroSD and Wi-Fi access point.</p>
+            <ul class="work-tags"><li>ESP32</li><li>Arduino IDE</li><li>HTML/CSS/JS</li><li>MicroSD</li><li>Wi-Fi AP</li></ul>
+          </div>
+        </article>
+        <article class="work-card research-card reveal">
+          <img class="work-img" src="images/srl-research.svg" alt="Semantic role labelling of a Hindi sentence: Ram is the agent, the book is the theme, and 'read' is the predicate." />
+          <div class="work-body">
+            <p class="work-cat">Research · NLP · NIT Rourkela · 2025</p>
+            <h3>Semantic Role Labelling for Indic Languages</h3>
+            <p>B.Tech research project under Prof. Tapas Kumar Mishra. Semantic Role Labelling teaches a model to understand <em>"who did what to whom"</em> in a sentence. It works well for English, but struggles with Indian languages, which affects tools like translation, search and question answering for millions of speakers.</p>
+            <ul class="research-points">
+              <li>Analysed why English-focused models fail on Indic languages: flexible word order, rich case marking, agglutinative words in languages like Tamil and Hindi, and very little labelled training data.</li>
+              <li>Reviewed approaches from feature-based systems to LSTM, Bi-LSTM and Transformer models, and compared their strengths and weaknesses for Indic text.</li>
+              <li>Proposed a framework that fine-tunes multilingual XLM-RoBERTa as a BIO sequence tagger, using cross-lingual transfer from English PropBank, with LSTM and Bi-LSTM baselines.</li>
+              <li>Proposed a morphology-aware evaluation metric to sit alongside precision, recall and F1.</li>
+            </ul>
+            <ul class="work-tags"><li>NLP</li><li>Transformers</li><li>XLM-R</li><li>Bi-LSTM</li><li>PyTorch</li><li>Cross-lingual Learning</li></ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="more-projects reveal">
+        <h3>More ML projects</h3>
+        <ul>
+          <li>
+            <div>
+              <strong>SONAR Rock vs Mine Prediction</strong>
+              <span>Classifies sonar signals as rock or mine using Logistic Regression on a 208-sample, 60-feature dataset.</span>
+            </div>
+            <ul class="work-tags"><li>Python</li><li>scikit-learn</li><li>Logistic Regression</li></ul>          </li>
+          <li>
+            <div>
+              <strong>Diabetes Prediction</strong>
+              <span>Predicts whether a person is diabetic from health measurements, using a linear SVM on the PIMA Diabetes dataset with standardised features.</span>
+            </div>
+            <ul class="work-tags"><li>Python</li><li>scikit-learn</li><li>SVM</li></ul>          </li>
+        </ul>
+      </div>
+    </section>
+    </div>
+
+    <!-- ================= CONTACT ================= -->
+    <div class="container contact-wrap">
+      <section class="contact-card reveal" id="contact">
+        <div class="contact-info">
+          <h2>Let's work together</h2>
+          <p>I'm looking for a software engineering role, and I'm open to freelance projects. Drop me a line.</p>
+          <div class="btn-row">
+            <a href="mailto:lakshmanshaminthan@gmail.com" class="btn btn-primary btn-lg">Email Me <span>→</span></a>
+            <a href="https://www.linkedin.com/in/shaminthan-lakshman-6aa642229/" target="_blank" rel="noopener" class="btn btn-outline btn-lg">LinkedIn</a>
+          </div>
+        </div>
+        <ul class="info-list">
+          <li>
+            <span class="info-icon active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+            <div><small>Location:</small><strong>Jaffna, Sri Lanka</strong></div>
+          </li>
+          <li>
+            <span class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+            <div><small>My Email:</small><strong><a href="mailto:lakshmanshaminthan@gmail.com">lakshmanshaminthan@gmail.com</a></strong></div>
+          </li>
+          <li>
+            <span class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+            <div><small>Call Me Now:</small><strong><a href="tel:+94764481576">+94 76 448 1576</a></strong></div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="brand light">
+        <span class="brand-mark">S</span>
+        <span class="brand-name">Shaminthan</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copy">© <span id="year"></span> Lakshman Shaminthan.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

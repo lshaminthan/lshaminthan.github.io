@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 300" role="img" aria-label="Illustration of the AI Legal Document Analyzer: a contract with highlighted key clauses and a risk flag, next to a chatbot answering a question about the contract.">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3e8ff"/>
+      <stop offset="1" stop-color="#fce7f3"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#6d28d9" flood-opacity="0.15"/>
+    </filter>
+    <style>.t { font-family: "Work Sans", "Segoe UI", system-ui, sans-serif; }</style>
+  </defs>
+
+  <rect width="424" height="300" fill="url(#lbg)"/>
+  <g fill="#9929fb" opacity="0.10"><circle cx="30" cy="30" r="4"/><circle cx="400" cy="270" r="5"/><circle cx="395" cy="28" r="3"/></g>
+
+  <!-- contract document -->
+  <g filter="url(#sh)">
+    <rect x="34" y="38" width="178" height="226" rx="12" fill="#fff"/>
+  </g>
+  <!-- folded corner -->
+  <path d="M186 38h14a12 12 0 0 1 12 12v14z" fill="#ede9fe"/>
+  <!-- title -->
+  <text x="54" y="70" class="t" font-size="13" font-weight="700" fill="#132238">CONTRACT</text>
+  <rect x="54" y="78" width="60" height="4" rx="2" fill="#d8b4fe"/>
+  <!-- text lines -->
+  <g fill="#e5e7eb">
+    <rect x="54" y="96" width="138" height="6" rx="3"/>
+    <rect x="54" y="110" width="120" height="6" rx="3"/>
+  </g>
+  <!-- highlighted key clause -->
+  <rect x="48" y="122" width="150" height="34" rx="6" fill="#f3e8ff"/>
+  <rect x="54" y="129" width="132" height="6" rx="3" fill="#c084fc"/>
+  <rect x="54" y="143" width="104" height="6" rx="3" fill="#c084fc"/>
+  <g fill="#e5e7eb">
+    <rect x="54" y="166" width="132" height="6" rx="3"/>
+    <rect x="54" y="180" width="110" height="6" rx="3"/>
+  </g>
+  <!-- risky clause -->
+  <rect x="48" y="192" width="150" height="34" rx="6" fill="#fee2e2"/>
+  <rect x="54" y="199" width="126" height="6" rx="3" fill="#f87171"/>
+  <rect x="54" y="213" width="92" height="6" rx="3" fill="#f87171"/>
+  <rect x="54" y="238" width="80" height="6" rx="3" fill="#e5e7eb"/>
+
+  <!-- labels -->
+  <g>
+    <rect x="168" y="116" width="70" height="20" rx="10" fill="#9929fb"/>
+    <text x="203" y="130" text-anchor="middle" class="t" font-size="10" font-weight="700" fill="#fff">KEY CLAUSE</text>
+  </g>
+  <g>
+    <rect x="168" y="186" width="62" height="20" rx="10" fill="#ef4444"/>
+    <path d="M178 191v10M178 191h7l-2 2.5 2 2.5h-7" fill="#fff" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+    <text x="207" y="200" text-anchor="middle" class="t" font-size="10" font-weight="700" fill="#fff">RISK</text>
+  </g>
+
+  <!-- chatbot panel -->
+  <g filter="url(#sh)">
+    <rect x="236" y="62" width="160" height="178" rx="14" fill="#fff"/>
+  </g>
+  <!-- header -->
+  <circle cx="256" cy="84" r="10" fill="#9929fb"/>
+  <path d="M256 77.5 Q257.2 82.8 262.5 84 Q257.2 85.2 256 90.5 Q254.8 85.2 249.5 84 Q254.8 82.8 256 77.5z" fill="#fff"/>
+  <text x="272" y="88" class="t" font-size="11" font-weight="700" fill="#132238">Legal Assistant</text>
+  <line x1="246" y1="102" x2="386" y2="102" stroke="#f3f4f6" stroke-width="1.5"/>
+
+  <!-- user question -->
+  <rect x="290" y="112" width="96" height="40" rx="10" fill="#9929fb"/>
+  <text x="298" y="128" class="t" font-size="9.5" fill="#fff">Can they end the</text>
+  <text x="298" y="142" class="t" font-size="9.5" fill="#fff">contract early?</text>
+
+  <!-- AI answer -->
+  <rect x="246" y="162" width="124" height="54" rx="10" fill="#f3f4f6"/>
+  <text x="254" y="178" class="t" font-size="9.5" fill="#132238">Yes, with 30 days'</text>
+  <text x="254" y="191" class="t" font-size="9.5" fill="#132238">notice.</text>
+  <text x="254" y="206" class="t" font-size="8.5" font-weight="600" fill="#9929fb">Source: Clause 7.2</text>
+
+  <!-- input bar -->
+  <rect x="246" y="224" width="140" height="8" rx="4" fill="#f3f4f6"/>
+
+  <!-- connection: clause -> answer -->
+  <path d="M212 140 C 226 140, 228 186, 244 188" fill="none" stroke="#9929fb" stroke-width="1.6" stroke-dasharray="4 4" opacity="0.6"/>
+</svg>
