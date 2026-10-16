@@ -346,7 +346,9 @@ img { max-width: 100%; display: block; }
   .hero-socials { flex-direction: row; }
   .portfolio-grid { grid-template-columns: 1fr; }
   .research-card { grid-template-columns: 1fr; }
-  .research-card .work-img { min-height: 180px; }
+  /* single column: give the image its own size instead of height:100% of an
+     auto row, which iOS Safari resolves wrongly (diagram overlapped the text) */
+  .research-card .work-img { height: auto; min-height: 0; max-height: 420px; aspect-ratio: 400 / 460; }
   .work-body { padding: 22px; }
   .footer-inner { flex-direction: column; text-align: center; }
   .footer-links { justify-content: center; }

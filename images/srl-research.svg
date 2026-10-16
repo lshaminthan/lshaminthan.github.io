@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" role="img" aria-label="Semantic role labelling of the Hindi sentence 'Ram ne kitaab padhi' (Ram read the book): Ram is the agent, kitaab is the theme, padhi is the predicate.">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="460" viewBox="0 0 400 460" role="img" aria-label="Semantic role labelling of the Hindi sentence 'Ram ne kitaab padhi' (Ram read the book): Ram is the agent, kitaab is the theme, padhi is the predicate.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f3e8ff"/>
